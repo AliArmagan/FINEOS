@@ -1,4 +1,4 @@
-package com.way2automation.Utilities;
+package com.way2automation.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -17,7 +17,7 @@ public class Driver {
 
             synchronized (Driver.class) {
 
-                String browser = ConfigurationReader.getProperty("browser");
+                String browser = com.way2automation.Utilities.ConfigurationReader.getProperty("browser");
 
                 switch (browser) {
 

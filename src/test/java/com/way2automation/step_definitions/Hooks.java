@@ -1,12 +1,9 @@
 package com.way2automation.step_definitions;
 
-import com.way2automation.Utilities.Driver;
+import com.way2automation.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-
-
-
 
 import java.util.concurrent.TimeUnit;
 

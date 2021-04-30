@@ -1,12 +1,14 @@
 package com.way2automation.pages;
 
 import com.way2automation.Utilities.ConfigurationReader;
-import com.way2automation.Utilities.Driver;
+import com.way2automation.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class UserPage extends BasePage{
 
@@ -90,11 +92,13 @@ public class UserPage extends BasePage{
     public void clickSaveButton() {
         saveButton.click();
     }
-    public static void validateName(WebDriver driver , String name){
+    public void validateName(WebDriver driver , String FirstName){
 
-        String NAME = driver.findElement(By.xpath("(//tr/td[1])[3]")).getText();
+        WebDriverWait wait = new WebDriverWait(com.way2automation.utilities.Driver.getDriver(), 10);
 
-        if(NAME.equals(name)){
+        String NAME = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//tr/td[1])[3]"))).getText();
+
+        if(NAME.equals(FirstName)){
             System.out.println("New user created!");
         }else{
             System.out.println("!!Test failed!!");
@@ -110,6 +114,20 @@ public class UserPage extends BasePage{
     public void clicksOnOkButton(){
         okButton.click();
     }
+    public void validateUsernameIsDeleted(WebDriver driver , String UserName ){
+
+        WebDriverWait wait = new WebDriverWait(com.way2automation.utilities.Driver.getDriver(), 10);
+
+        String User = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//tbody//tr[3]//td[3]"))).getText();
+
+        if(!User.equals(UserName)){
+            System.out.println("New user is created!");
+        }else{
+            System.out.println("!!Test failed!! "+User+" is not DELETED! ");
+        }
+
+    }
+
 
 
 

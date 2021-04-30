@@ -3,11 +3,120 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-30T06:43:10.356Z",
+        "start_timestamp": "2021-04-30T10:06:26.233Z",
         "before": [
           {
             "result": {
-              "duration": 1523000000,
+              "duration": 1740000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.way2automation.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "As Admid user I should be able to \u0027Add user\u0027",
+        "description": "",
+        "id": "add-user;as-admid-user-i-should-be-able-to--add-user-",
+        "after": [
+          {
+            "result": {
+              "duration": 68000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.way2automation.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1370000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on website",
+            "match": {
+              "location": "com.way2automation.step_definitions.AddUserStepDefinitions.user_is_on_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on Add User button",
+            "match": {
+              "location": "com.way2automation.step_definitions.AddUserStepDefinitions.user_clicks_on_add_user_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1028000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user adds new user information",
+            "match": {
+              "location": "com.way2automation.step_definitions.AddUserStepDefinitions.user_adds_new_user_information()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on save button",
+            "match": {
+              "location": "com.way2automation.step_definitions.AddUserStepDefinitions.user_clicks_on_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verify that new user name on the table",
+            "match": {
+              "location": "com.way2automation.step_definitions.AddUserStepDefinitions.user_verify_that_new_user_name_on_the_table()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@add_user"
+          }
+        ]
+      }
+    ],
+    "name": "Add user",
+    "description": "",
+    "id": "add-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AddUser.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-30T10:06:30.608Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1007000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +131,7 @@
         "after": [
           {
             "result": {
-              "duration": 75000000,
+              "duration": 71000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +144,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1270000000,
+              "duration": 1221000000,
               "status": "passed"
             },
             "line": 4,
@@ -47,7 +156,7 @@
           },
           {
             "result": {
-              "duration": 39000000,
+              "duration": 35000000,
               "status": "passed"
             },
             "line": 5,
@@ -59,7 +168,7 @@
           },
           {
             "result": {
-              "duration": 35000000,
+              "duration": 32000000,
               "status": "passed"
             },
             "line": 6,
@@ -71,7 +180,7 @@
           },
           {
             "result": {
-              "duration": 52000000,
+              "duration": 29000000,
               "status": "passed"
             },
             "line": 7,
