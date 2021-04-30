@@ -17,7 +17,7 @@
 
 - Under Utilities I have Driver,BrowserUtils and ConfigurationReader classes,if you want to check.
 
-- If you wanna change browser and run with firefox you can change it on configuration.properties.I did not wanna add another browser.
+- If you wanna change browser and run on firefox you can change it on configuration.properties.I did not wanna add another browser.
 
 
 
