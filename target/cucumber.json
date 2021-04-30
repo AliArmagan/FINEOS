@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-30T10:16:52.484Z",
+        "start_timestamp": "2021-04-30T10:19:23.729Z",
         "before": [
           {
             "result": {
-              "duration": 1521000000,
+              "duration": 1493000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 3,
+        "line": 4,
         "name": "As a user I should be able to \u0027Add user\u0027",
         "description": "",
         "id": "add-user;as-a-user-i-should-be-able-to--add-user-",
         "after": [
           {
             "result": {
-              "duration": 64000000,
+              "duration": 68000000,
               "status": "passed"
             },
             "match": {
@@ -35,10 +35,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1365000000,
+              "duration": 1454000000,
               "status": "passed"
             },
-            "line": 4,
+            "line": 6,
             "name": "user is on website",
             "match": {
               "location": "com.way2automation.step_definitions.AddUserStepDefinitions.user_is_on_website()"
@@ -47,10 +47,10 @@
           },
           {
             "result": {
-              "duration": 47000000,
+              "duration": 46000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 7,
             "name": "user clicks on Add User button",
             "match": {
               "location": "com.way2automation.step_definitions.AddUserStepDefinitions.user_clicks_on_add_user_button()"
@@ -59,10 +59,10 @@
           },
           {
             "result": {
-              "duration": 831000000,
+              "duration": 1107000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 8,
             "name": "user adds new user information",
             "match": {
               "location": "com.way2automation.step_definitions.AddUserStepDefinitions.user_adds_new_user_information()"
@@ -74,7 +74,7 @@
               "duration": 31000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 9,
             "name": "user clicks on save button",
             "match": {
               "location": "com.way2automation.step_definitions.AddUserStepDefinitions.user_clicks_on_save_button()"
@@ -83,10 +83,10 @@
           },
           {
             "result": {
-              "duration": 41000000,
+              "duration": 35000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 10,
             "name": "user verify that new user name on the table",
             "match": {
               "location": "com.way2automation.step_definitions.AddUserStepDefinitions.user_verify_that_new_user_name_on_the_table()"
@@ -112,11 +112,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-30T10:16:56.447Z",
+        "start_timestamp": "2021-04-30T10:19:28.025Z",
         "before": [
           {
             "result": {
-              "duration": 1007000000,
+              "duration": 1031000000,
               "status": "passed"
             },
             "match": {
@@ -124,14 +124,14 @@
             }
           }
         ],
-        "line": 3,
+        "line": 4,
         "name": "Delete user User Name: novak and validate user has been deleted",
         "description": "",
         "id": "delete-user;delete-user-user-name:-novak-and-validate-user-has-been-deleted",
         "after": [
           {
             "result": {
-              "duration": 62000000,
+              "duration": 69000000,
               "status": "passed"
             },
             "match": {
@@ -144,10 +144,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1297000000,
+              "duration": 1288000000,
               "status": "passed"
             },
-            "line": 4,
+            "line": 6,
             "name": "user is on website",
             "match": {
               "location": "com.way2automation.step_definitions.AddUserStepDefinitions.user_is_on_website()"
@@ -156,10 +156,10 @@
           },
           {
             "result": {
-              "duration": 38000000,
+              "duration": 36000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 7,
             "name": "user clicks on X button on User Name row",
             "match": {
               "location": "com.way2automation.step_definitions.DeleteUserStepDefinitions.user_clicks_on_x_button_on_user_name_row()"
@@ -168,10 +168,10 @@
           },
           {
             "result": {
-              "duration": 30000000,
+              "duration": 31000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 8,
             "name": "user clicks on OK button",
             "match": {
               "location": "com.way2automation.step_definitions.DeleteUserStepDefinitions.user_clicks_on_ok_button()"
@@ -183,7 +183,7 @@
               "duration": 29000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 9,
             "name": "user verify that User Name deleted",
             "match": {
               "location": "com.way2automation.step_definitions.DeleteUserStepDefinitions.user_verify_that_user_name_deleted()"

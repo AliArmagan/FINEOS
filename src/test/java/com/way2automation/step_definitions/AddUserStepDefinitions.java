@@ -1,7 +1,7 @@
 package com.way2automation.step_definitions;
 
 import com.way2automation.pages.UserPage;
-import com.way2automation.utilities.Driver;
+import com.way2automation.Utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.openqa.selenium.WebDriver;

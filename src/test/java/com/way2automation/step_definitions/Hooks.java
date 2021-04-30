@@ -1,6 +1,6 @@
 package com.way2automation.step_definitions;
 
-import com.way2automation.utilities.Driver;
+import com.way2automation.Utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;

@@ -1,7 +1,7 @@
 package com.way2automation.pages;
 
 import com.way2automation.Utilities.ConfigurationReader;
-import com.way2automation.utilities.Driver;
+import com.way2automation.Utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -94,7 +94,7 @@ public class UserPage extends BasePage{
     }
     public void validateName(WebDriver driver , String FirstName){
 
-        WebDriverWait wait = new WebDriverWait(com.way2automation.utilities.Driver.getDriver(), 10);
+        WebDriverWait wait = new WebDriverWait(com.way2automation.Utilities.Driver.getDriver(), 10);
 
         String NAME = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//tr/td[1])[3]"))).getText();
 
@@ -116,7 +116,7 @@ public class UserPage extends BasePage{
     }
     public void validateUsernameIsDeleted(WebDriver driver , String UserName ){
 
-        WebDriverWait wait = new WebDriverWait(com.way2automation.utilities.Driver.getDriver(), 10);
+        WebDriverWait wait = new WebDriverWait(com.way2automation.Utilities.Driver.getDriver(), 10);
 
         String User = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//tbody//tr[3]//td[3]"))).getText();
 
