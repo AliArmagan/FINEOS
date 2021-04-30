@@ -5,6 +5,9 @@ Instructions:
 - To run test open the "CucumberRunner" class under runner folder,
  and write the tag that you wanna run inside the double code next to the tags.(Ex=> tags = "@add_user")
  
+ -I have Hooks class inside the "step_definitions" folder.If you wanna comment out "Driver.closeDriver()" to see page to make sure
+ result as expected,it is under @After tag inside tearDown.
+ 
 - I have too tags that you can run.@delete_user and @add_user
 
 - I created 2 different feature file for each Scnerio.If you wanna check,you can see under features folder(src/test/resources/features).
