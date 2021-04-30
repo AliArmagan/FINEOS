@@ -11,7 +11,7 @@ Instructions:
 
 - All elements and related methods for the page, locate under pages folder; inside the UserPage class.
 
-- Under Utilities I have Driver,BrowserUtils and ConfigurationReader,if you want to check.
+- Under Utilities I have Driver,BrowserUtils and ConfigurationReader classes,if you want to check.
 
 - If you wanna change browser and run with firefox you can change it on configuration.properties.I did not wanna add another browser.
 
