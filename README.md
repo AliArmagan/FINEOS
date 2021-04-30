@@ -1,6 +1,6 @@
-# FINEOS_challenge
+#Instructions:
 
-Instructions:
+
 
 - To Run Test, you can Run the "CucumberRunner" class or feature file.(By right click and Run or open the class and click on the small green icon)
 - To run only one test open the "CucumberRunner" class under runner folder,
