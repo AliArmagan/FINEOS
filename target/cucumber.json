@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-30T10:06:26.233Z",
+        "start_timestamp": "2021-04-30T10:16:52.484Z",
         "before": [
           {
             "result": {
-              "duration": 1740000000,
+              "duration": 1521000000,
               "status": "passed"
             },
             "match": {
@@ -16,13 +16,13 @@
           }
         ],
         "line": 3,
-        "name": "As Admid user I should be able to \u0027Add user\u0027",
+        "name": "As a user I should be able to \u0027Add user\u0027",
         "description": "",
-        "id": "add-user;as-admid-user-i-should-be-able-to--add-user-",
+        "id": "add-user;as-a-user-i-should-be-able-to--add-user-",
         "after": [
           {
             "result": {
-              "duration": 68000000,
+              "duration": 64000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1370000000,
+              "duration": 1365000000,
               "status": "passed"
             },
             "line": 4,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 45000000,
+              "duration": 47000000,
               "status": "passed"
             },
             "line": 5,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 1028000000,
+              "duration": 831000000,
               "status": "passed"
             },
             "line": 6,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 36000000,
+              "duration": 41000000,
               "status": "passed"
             },
             "line": 8,
@@ -112,7 +112,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-30T10:06:30.608Z",
+        "start_timestamp": "2021-04-30T10:16:56.447Z",
         "before": [
           {
             "result": {
@@ -131,7 +131,7 @@
         "after": [
           {
             "result": {
-              "duration": 71000000,
+              "duration": 62000000,
               "status": "passed"
             },
             "match": {
@@ -144,7 +144,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1221000000,
+              "duration": 1297000000,
               "status": "passed"
             },
             "line": 4,
@@ -156,7 +156,7 @@
           },
           {
             "result": {
-              "duration": 35000000,
+              "duration": 38000000,
               "status": "passed"
             },
             "line": 5,
@@ -168,7 +168,7 @@
           },
           {
             "result": {
-              "duration": 32000000,
+              "duration": 30000000,
               "status": "passed"
             },
             "line": 6,
