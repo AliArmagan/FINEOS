@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-30T06:43:10.356Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1523000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.way2automation.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Delete user User Name: novak and validate user has been deleted",
+        "description": "",
+        "id": "delete-user;delete-user-user-name:-novak-and-validate-user-has-been-deleted",
+        "after": [
+          {
+            "result": {
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.way2automation.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1270000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on website",
+            "match": {
+              "location": "com.way2automation.step_definitions.AddUserStepDefinitions.user_is_on_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on X button on User Name row",
+            "match": {
+              "location": "com.way2automation.step_definitions.DeleteUserStepDefinitions.user_clicks_on_x_button_on_user_name_row()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on OK button",
+            "match": {
+              "location": "com.way2automation.step_definitions.DeleteUserStepDefinitions.user_clicks_on_ok_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verify that User Name deleted",
+            "match": {
+              "location": "com.way2automation.step_definitions.DeleteUserStepDefinitions.user_verify_that_user_name_deleted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@delete_user"
+          }
+        ]
+      }
+    ],
+    "name": "Delete User",
+    "description": "",
+    "id": "delete-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DeleteUser.feature",
+    "tags": []
+  }
+]
