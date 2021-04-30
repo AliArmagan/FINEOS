@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
         glue = "com/way2automation/step_definitions",
         dryRun = false,
         publish =true,
-        tags = "@delete_user"
+        tags = ""
 
 
 
