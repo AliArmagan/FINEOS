@@ -11,7 +11,7 @@
  
 - I have too tags that you can run.@delete_user and @add_user
 
-- I created 2 different feature file for each Scnerio.If you wanna check,you can see under features folder(src/test/resources/features).
+- I created 2 different feature file for each scenario.If you wanna check,you can see under features folder(src/test/resources/features).
 
 - All elements and related methods for the page, locate under pages folder; inside the UserPage class.
 
